@@ -1,5 +1,5 @@
 //
-//  CategotyModel.swift
+//  CategoryModel.swift
 //  Touchdown
 //
 //  Created by Víctor Manuel Puga Ruiz on 08/02/21.
