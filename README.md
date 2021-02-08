@@ -5,3 +5,5 @@ Third app from the SwiftUI online course
 
 - Custom NavBar
 - Animation
+- Page TabView
+- Lazy Grids
