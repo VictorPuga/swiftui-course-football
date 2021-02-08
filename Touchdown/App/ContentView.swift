@@ -24,10 +24,16 @@ struct ContentView: View {
             y: 5
           )
         
-        Spacer()
+        ScrollView(.vertical) {
+          VStack(spacing: 0) {
+            FeaturedTabView()
+              .padding(.vertical, 20)
+            
+            FooterView()
+              .padding(.horizontal)
+          }
+        }
         
-        FooterView()
-          .padding(.horizontal)
       } // :VStack
       .background(colorBackground.ignoresSafeArea(.all, edges: .all))
     } // :ZStack

@@ -19,6 +19,10 @@
 		3295062E25CC6F0D00821BEB /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 3295062A25CC6F0D00821BEB /* brand.json */; };
 		3295063D25CC711500821BEB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295063C25CC711500821BEB /* Constant.swift */; };
 		3295064125CC721200821BEB /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295064025CC721200821BEB /* FooterView.swift */; };
+		32B4ADF625D0C210008DC812 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B4ADF525D0C210008DC812 /* PlayerModel.swift */; };
+		32B4ADF925D0C247008DC812 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B4ADF825D0C247008DC812 /* CodableBundleExtension.swift */; };
+		32B4ADFC25D0C36D008DC812 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B4ADFB25D0C36D008DC812 /* FeaturedItemView.swift */; };
+		32B4ADFF25D0C522008DC812 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B4ADFE25D0C522008DC812 /* FeaturedTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		3295062A25CC6F0D00821BEB /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		3295063C25CC711500821BEB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3295064025CC721200821BEB /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		32B4ADF525D0C210008DC812 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		32B4ADF825D0C247008DC812 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		32B4ADFB25D0C36D008DC812 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		32B4ADFE25D0C522008DC812 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,8 @@
 				3295064025CC721200821BEB /* FooterView.swift */,
 				3286FFA125CC75FE006049D9 /* NavigationBarView.swift */,
 				3286FFA425CC76E2006049D9 /* LogoView.swift */,
+				32B4ADFB25D0C36D008DC812 /* FeaturedItemView.swift */,
+				32B4ADFE25D0C522008DC812 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -142,6 +152,7 @@
 		3295063925CC706C00821BEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				32B4ADF525D0C210008DC812 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 		3295063A25CC707800821BEB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				32B4ADF825D0C247008DC812 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -234,12 +246,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B4ADF925D0C247008DC812 /* CodableBundleExtension.swift in Sources */,
 				320590D725CC6C9700B6E178 /* ContentView.swift in Sources */,
 				3286FFA525CC76E2006049D9 /* LogoView.swift in Sources */,
 				3295064125CC721200821BEB /* FooterView.swift in Sources */,
+				32B4ADFC25D0C36D008DC812 /* FeaturedItemView.swift in Sources */,
 				320590D525CC6C9700B6E178 /* TouchdownApp.swift in Sources */,
 				3295063D25CC711500821BEB /* Constant.swift in Sources */,
 				3286FFA225CC75FE006049D9 /* NavigationBarView.swift in Sources */,
+				32B4ADFF25D0C522008DC812 /* FeaturedTabView.swift in Sources */,
+				32B4ADF625D0C210008DC812 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
