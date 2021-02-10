@@ -18,6 +18,7 @@ struct QuantityFavoriteDetailView: View {
       Button(action: {
         if counter > 0 {
           counter -= 1
+          feedback.impactOccurred()
         }
       }) {
         Image(systemName: "minus.circle")
@@ -30,6 +31,7 @@ struct QuantityFavoriteDetailView: View {
       Button(action: {
         if counter < 100 {
           counter += 1
+          feedback.impactOccurred()
         }
       }) {
         Image(systemName: "plus.circle")
@@ -37,7 +39,9 @@ struct QuantityFavoriteDetailView: View {
       
       Spacer()
       
-      Button(action: {}) {
+      Button(action: {
+        feedback.impactOccurred()
+      }) {
         Image(systemName: "heart.circle")
           .foregroundColor(.pink)
       }

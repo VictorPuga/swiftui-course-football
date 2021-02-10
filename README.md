@@ -7,3 +7,5 @@ Third app from the SwiftUI online course
 - Animation
 - Page TabView
 - Lazy Grids
+- ObservableObject
+- Haptic feedback
